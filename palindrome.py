@@ -12,6 +12,10 @@ def oldPalindrome(string):
         return oldPal(newWord)
 
 
+
+
+
+
 def newPalindrome(string):
     for char in range(len(string)):
         newWord = string[0:char] + string[char + 1:len(string)]
