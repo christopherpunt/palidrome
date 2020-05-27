@@ -15,6 +15,12 @@ def oldPalindrome(string):
 
 
 
+#helper function for newPalindrome that is more efficient
+def newPal(myString):
+    for n in range(int(len(myString)/2)):
+        if(myString[n] != myString[len(myString) - n - 1]):
+            return False
+    return True
 
 def newPalindrome(string):
     for char in range(len(string)):
@@ -23,8 +29,3 @@ def newPalindrome(string):
             return True
     return False
 
-def newPal(myString):
-    for n in range(int(len(myString)/2)):
-        if(myString[n] != myString[len(myString) - n - 1]):
-            return False
-    return True
