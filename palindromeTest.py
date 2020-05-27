@@ -2,7 +2,7 @@ from palindrome import *
 
 string0 = ""
 string1 = "t"
-string2 = "test"
+string2 = "testword"
 string3 = "bhannah"
 string4 = "hanbnah"
 string5 = "kayfak"
@@ -10,8 +10,6 @@ string6 = "rabdar"
 
 
 #run Tests
-assert oldPalindrome(string0) == True
-assert newPalindrome(string0) == True
 
 assert oldPalindrome(string1) == True
 assert newPalindrome(string1) == True
